@@ -1,4 +1,4 @@
-requests (0.4.1-1) unstable; urgency=low
+requests (0.4.1-1) UNRELEASED; urgency=low
 
   * Initial release (Closes: #629370)
 
