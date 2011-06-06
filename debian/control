@@ -13,20 +13,20 @@ Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/requests/trun
 Package: python-requests
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
-Description: an elegant and simple HTTP library for Python, built for human beings
-  Requests allow you to send GET, HEAD, PUT, POST, and DELETE
-  HTTP requests. You can add headers, form data, multipart files, and
-  parameters with simple Python dictionaries, and access the response
-  data in the same way. It's powered by urllib2, but it does all the
-  hard work and crazy hacks for you.
-  .
-  Features
-  .
-    - Extremely simple GET, HEAD, POST, PUT, DELETE Requests
-    - Simple HTTP Header Request Attachment
-    - Simple Data/Params Request Attachment
-    - Simple Multipart File Uploads
-    - CookieJar Support
-    - Redirection History
-    - Redirection Recursion Urllib Fix
-    - Auto Decompression of GZipped Content
+Description: elegant and simple HTTP library for Python, built for human beings
+ Requests allow you to send GET, HEAD, PUT, POST, and DELETE
+ HTTP requests. You can add headers, form data, multipart files, and
+ parameters with simple Python dictionaries, and access the response
+ data in the same way. It's powered by urllib2, but it does all the
+ hard work and crazy hacks for you.
+ .
+ Features
+ .
+   - Extremely simple GET, HEAD, POST, PUT, DELETE Requests
+   - Simple HTTP Header Request Attachment
+   - Simple Data/Params Request Attachment
+   - Simple Multipart File Uploads
+   - CookieJar Support
+   - Redirection History
+   - Redirection Recursion Urllib Fix
+   - Auto Decompression of GZipped Content
