@@ -3,7 +3,7 @@ Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.
 Uploaders: Daniele Tricoli <eriol@mornie.org>
 Section: python
 Priority: optional
-Build-Depends: debhelper (>= 7),
+Build-Depends: debhelper (>= 7.0.50~),
                python-all (>= 2.6.6-3),
 Standards-Version: 3.9.2
 Homepage: http://python-requests.org
