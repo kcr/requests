@@ -1,0 +1,5 @@
+requests (0.4.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #629370)
+
+ -- Daniele Tricoli <eriol@mornie.org>  Mon, 06 Jun 2011 02:11:15 +0200
