@@ -1,0 +1,2 @@
+Files under requests/packages/poster/ are not an embedded copy of python-poster
+but a fork of that library.
