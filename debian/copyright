@@ -1,4 +1,4 @@
-Format: http://dep.debian.net/deps/dep5/
+Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?revision=174
 Upstream-Name: requests
 Upstream-Contact: Kenneth Reitz <me@kennethreitz.com>
 Source: http://pypi.python.org/pypi/requests
