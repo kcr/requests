@@ -1,8 +1,11 @@
 requests (0.6.4-1) UNRELEASED; urgency=low
 
   * New upstream release
+  * debian/control
+    - Dropped python-eventlet from Depends field because it's not used
+      anymore
 
- -- Daniele Tricoli <eriol@mornie.org>  Sun, 16 Oct 2011 20:30:28 +0200
+ -- Daniele Tricoli <eriol@mornie.org>  Tue, 18 Oct 2011 23:46:16 +0200
 
 requests (0.6.1-1) unstable; urgency=low
 
