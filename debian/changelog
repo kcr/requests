@@ -4,8 +4,10 @@ requests (0.6.4-1) UNRELEASED; urgency=low
   * debian/control
     - Dropped python-eventlet from Depends field because it's not used
       anymore
+    - Moved python-gevent from Depends field to Recommends field so
+      python-requests can be installed also in ia64 and sparc
 
- -- Daniele Tricoli <eriol@mornie.org>  Tue, 18 Oct 2011 23:46:16 +0200
+ -- Daniele Tricoli <eriol@mornie.org>  Wed, 19 Oct 2011 20:49:39 +0200
 
 requests (0.6.1-1) unstable; urgency=low
 
