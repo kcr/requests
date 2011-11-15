@@ -1,3 +1,9 @@
+requests (0.8.0-1) UNRELEASED; urgency=low
+
+  * New upstream release
+
+ -- Daniele Tricoli <eriol@mornie.org>  Tue, 15 Nov 2011 00:16:31 +0100
+
 requests (0.6.4-1) unstable; urgency=low
 
   * New upstream release
