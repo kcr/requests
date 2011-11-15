@@ -1,2 +1,2 @@
 version=3
-http://pypi.python.org/packages/source/r/requests/requests-(.*)\.tar\.gz debian uupdate
+http://pypi.python.org/packages/source/r/requests/requests-(.*)\.tar\.gz
