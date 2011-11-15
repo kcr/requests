@@ -1,2 +1,2 @@
-Files under requests/packages/poster/ are not an embedded copy of python-poster
-but a fork of that library.
+Files under requests/packages/urllib3/ are not an embedded copy but a fork of
+that library.
