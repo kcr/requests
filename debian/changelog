@@ -1,4 +1,4 @@
-requests (0.8.0-1) UNRELEASED; urgency=low
+requests (0.8.1-1) UNRELEASED; urgency=low
 
   * New upstream release
   * debian/watch
@@ -7,7 +7,7 @@ requests (0.8.0-1) UNRELEASED; urgency=low
     - Updated to reflect upstream changes: switched from poster to
       urllib3
 
- -- Daniele Tricoli <eriol@mornie.org>  Tue, 15 Nov 2011 04:06:59 +0100
+ -- Daniele Tricoli <eriol@mornie.org>  Tue, 15 Nov 2011 23:20:34 +0100
 
 requests (0.6.4-1) unstable; urgency=low
 
