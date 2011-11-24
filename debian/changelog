@@ -6,7 +6,7 @@ requests (0.8.2-1) UNRELEASED; urgency=low
   * debian/{copyright,README.source}
     - Updated to reflect upstream changes: switched from poster to
       urllib3
-    - Added a stanza about the embedded  modified copy of the
+    - Added a stanza about the embedded modified copy of the
       standard module Cookie
 
  -- Daniele Tricoli <eriol@mornie.org>  Fri, 25 Nov 2011 00:02:28 +0100
