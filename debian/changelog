@@ -1,4 +1,4 @@
-requests (0.8.1-1) UNRELEASED; urgency=low
+requests (0.8.2-1) UNRELEASED; urgency=low
 
   * New upstream release
   * debian/watch
@@ -6,8 +6,10 @@ requests (0.8.1-1) UNRELEASED; urgency=low
   * debian/{copyright,README.source}
     - Updated to reflect upstream changes: switched from poster to
       urllib3
+    - Added a stanza about the embedded  modified copy of the
+      standard module Cookie
 
- -- Daniele Tricoli <eriol@mornie.org>  Tue, 15 Nov 2011 23:20:34 +0100
+ -- Daniele Tricoli <eriol@mornie.org>  Fri, 25 Nov 2011 00:02:28 +0100
 
 requests (0.6.4-1) unstable; urgency=low
 
