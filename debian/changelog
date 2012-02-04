@@ -3,8 +3,9 @@ requests (0.10.1-1) UNRELEASED; urgency=low
   * New upstream release
   * debian/control
     - Added python-chardet to Recommends
+    - Bumped X-Python-Version >= 2.6
 
- -- Daniele Tricoli <eriol@mornie.org>  Sat, 04 Feb 2012 23:24:26 +0100
+ -- Daniele Tricoli <eriol@mornie.org>  Sun, 05 Feb 2012 00:28:04 +0100
 
 requests (0.8.2-1) unstable; urgency=low
 
