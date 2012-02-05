@@ -1,18 +1,22 @@
-Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?revision=174
+Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5/index.html?revision=261
 Upstream-Name: requests
 Upstream-Contact: Kenneth Reitz <me@kennethreitz.com>
 Source: http://pypi.python.org/pypi/requests
 
 Files: *
-Copyright: © 2011 Kenneth Reitz
+Copyright: 2011-2012, Kenneth Reitz
 License: ISC
 
 Files: requests/packages/urllib3/*
-Copyright: © 2008-2011 Andrey Petrov
+Copyright: 2008-2011, Andrey Petrov
+License: Expat
+
+Files: requests/packages/urllib3/packages/six.py
+Copyright: 2010-2011, Benjamin Peterson
 License: Expat
 
 Files: requests/packages/oreos/monkeys.py
-Copyright: © 2000 Timothy O'Malley
+Copyright: 2000, Timothy O'Malley
 License:
  Permission to use, copy, modify, and distribute this software
  and its documentation for any purpose and without fee is hereby
@@ -33,7 +37,7 @@ License:
  PERFORMANCE OF THIS SOFTWARE.
 
 Files: debian/*
-Copyright: © 2011 Daniele Tricoli <eriol@mornie.org>
+Copyright: 2011-2012 Daniele Tricoli <eriol@mornie.org>
 License: ISC
 
 License: ISC
