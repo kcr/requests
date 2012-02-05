@@ -13,9 +13,12 @@ Vcs-Browser: http://svn.debian.org/viewsvn/python-modules/packages/requests/trun
 
 Package: python-requests
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
+Depends:
+ ${misc:Depends},
+ ${python:Depends},
+ ca-certificates
 Recommends:
- python-chardet
+ python-chardet,
  python-gevent
 Description: elegant and simple HTTP library for Python, built for human beings
  Requests allow you to send GET, HEAD, PUT, POST, and DELETE
