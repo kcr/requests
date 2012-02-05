@@ -1,4 +1,4 @@
-Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5/index.html?revision=261
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: requests
 Upstream-Contact: Kenneth Reitz <me@kennethreitz.com>
 Source: http://pypi.python.org/pypi/requests
