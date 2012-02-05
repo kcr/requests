@@ -1,6 +1,9 @@
 requests (0.10.1-1) UNRELEASED; urgency=low
 
   * New upstream release
+    - Adds Python 3 support
+  * Builded python 3 package
+    - B-D on python3-all
   * debian/control
     - Added python-chardet to Recommends
     - Bumped X-Python-Version >= 2.6
