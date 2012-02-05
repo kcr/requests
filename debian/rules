@@ -12,6 +12,10 @@ override_dh_auto_build:
 		$$python setup.py build; \
 	done
 
+override_dh_auto_clean:
+	rm -rf build
+	dh_auto_clean
+
 override_dh_auto_install:
 	set -ex; \
 	for python in $(PYVERS); do \
