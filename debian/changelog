@@ -5,8 +5,11 @@ requests (0.10.1-1) UNRELEASED; urgency=low
     - Added python-chardet to Recommends
     - Bumped X-Python-Version >= 2.6
     - Added ca-certificates to Depends 
+  * debian/patches/01_do-not-use-python-certifi.patch
+    - To verify SSL certificates for HTTPS requests, use the bundle provided by
+      ca-certificates instead of python-certifi
 
- -- Daniele Tricoli <eriol@mornie.org>  Sun, 05 Feb 2012 01:08:35 +0100
+ -- Daniele Tricoli <eriol@mornie.org>  Sun, 05 Feb 2012 01:24:59 +0100
 
 requests (0.8.2-1) unstable; urgency=low
 
