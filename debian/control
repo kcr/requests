@@ -48,7 +48,7 @@ Package: python3-requests
 Architecture: all
 Depends:
  ${misc:Depends},
- ${python:Depends},
+ ${python3:Depends},
  ca-certificates
 Description: elegant and simple HTTP library for Python3, built for human beings
  Requests allow you to send GET, HEAD, PUT, POST, and DELETE
