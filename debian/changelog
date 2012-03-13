@@ -1,8 +1,12 @@
-requests (0.10.1-2) UNRELEASED; urgency=low
+requests (0.10.8-1) UNRELEASED; urgency=low
 
+  [ Piotr Ożarowski ]
   * Fix typo in python3-requests' ${python3:Depends}
 
- -- Piotr Ożarowski <piotr@debian.org>  Tue, 21 Feb 2012 20:10:52 +0100
+  [ Daniele Tricoli ]
+  * New upstream release (Closes: #663561)
+
+ -- Daniele Tricoli <eriol@mornie.org>  Tue, 13 Mar 2012 08:13:06 +0100
 
 requests (0.10.1-1) unstable; urgency=low
 
