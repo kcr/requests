@@ -5,10 +5,12 @@ requests (0.10.8-1) UNRELEASED; urgency=low
 
   [ Daniele Tricoli ]
   * New upstream release (Closes: #663561)
+  * debian/patches/01_do-not-use-python-certifi.patch
+    - Refreshed
   * debian/patches/02_fix-python3-except-sintax-error.patch
     - Removed as it is applied upstream
 
- -- Daniele Tricoli <eriol@mornie.org>  Fri, 16 Mar 2012 17:37:39 +0100
+ -- Daniele Tricoli <eriol@mornie.org>  Fri, 16 Mar 2012 18:35:36 +0100
 
 requests (0.10.1-1) unstable; urgency=low
 
