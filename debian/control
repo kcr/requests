@@ -19,7 +19,8 @@ Architecture: all
 Depends:
  ${misc:Depends},
  ${python:Depends},
- ca-certificates
+ ca-certificates,
+ python-six
 Recommends:
  python-chardet,
  python-gevent
@@ -49,7 +50,8 @@ Architecture: all
 Depends:
  ${misc:Depends},
  ${python3:Depends},
- ca-certificates
+ ca-certificates,
+ python3-six
 Description: elegant and simple HTTP library for Python3, built for human beings
  Requests allow you to send GET, HEAD, PUT, POST, and DELETE
  HTTP requests. You can add headers, form data, multipart files, and

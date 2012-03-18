@@ -5,6 +5,11 @@ requests (0.10.8-1) UNRELEASED; urgency=low
 
   [ Daniele Tricoli ]
   * New upstream release (Closes: #663561)
+  * Removed embedded copy of python-six
+    - Added debian/patches/02_do-not-use-embedded-python-six.patch
+    - Added override_dh_auto_configure to debian/rules to remove
+      the embedded copy
+    - Added python(3)-six to Depends
   * debian/control
     - Bumped Standards-Version to 3.9.3 (no changes needed)
   * debian/patches/01_do-not-use-python-certifi.patch
@@ -12,7 +17,7 @@ requests (0.10.8-1) UNRELEASED; urgency=low
   * debian/patches/02_fix-python3-except-sintax-error.patch
     - Removed as it is applied upstream
 
- -- Daniele Tricoli <eriol@mornie.org>  Fri, 16 Mar 2012 19:37:44 +0100
+ -- Daniele Tricoli <eriol@mornie.org>  Mon, 19 Mar 2012 00:35:09 +0100
 
 requests (0.10.1-1) unstable; urgency=low
 

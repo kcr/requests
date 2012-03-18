@@ -1,0 +1,40 @@
+Description: Do not use embedded copy of python-six.
+Author: Daniele Tricoli <eriol@mornie.org>
+Forwarded: not-needed
+Last-Update: 2012-03-19
+
+--- a/requests/packages/urllib3/connectionpool.py
++++ b/requests/packages/urllib3/connectionpool.py
+@@ -59,7 +59,7 @@
+ )
+
+ from .packages.ssl_match_hostname import match_hostname, CertificateError
+-from .packages import six
++import six
+
+ xrange = six.moves.xrange
+
+--- a/requests/packages/urllib3/filepost.py
++++ b/requests/packages/urllib3/filepost.py
+@@ -14,8 +14,8 @@
+
+ from io import BytesIO
+
+-from .packages import six
+-from .packages.six import b
++import six
++from six import b
+
+ writer = codecs.lookup('utf-8')[3]
+
+--- a/requests/packages/urllib3/response.py
++++ b/requests/packages/urllib3/response.py
+@@ -11,7 +11,7 @@
+ from io import BytesIO
+
+ from .exceptions import HTTPError
+-from .packages.six import string_types as basestring
++from six import string_types as basestring
+
+
+ log = logging.getLogger(__name__)
