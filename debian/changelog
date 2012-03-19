@@ -12,12 +12,15 @@ requests (0.10.8-1) UNRELEASED; urgency=low
     - Added python(3)-six to Builds-Depends and Depends
   * debian/control
     - Bumped Standards-Version to 3.9.3 (no changes needed)
+  * debian/copyright
+    - Added forgotten stanzas about packages inside the fork
+      of python-urllib3
   * debian/patches/01_do-not-use-python-certifi.patch
     - Refreshed
   * debian/patches/02_fix-python3-except-sintax-error.patch
     - Removed as it is applied upstream
 
- -- Daniele Tricoli <eriol@mornie.org>  Mon, 19 Mar 2012 01:00:58 +0100
+ -- Daniele Tricoli <eriol@mornie.org>  Mon, 19 Mar 2012 01:20:59 +0100
 
 requests (0.10.1-1) unstable; urgency=low
 
