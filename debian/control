@@ -27,25 +27,23 @@ Recommends:
  python-chardet,
  python-gevent
 Description: elegant and simple HTTP library for Python, built for human beings
- Requests allow you to send GET, HEAD, PUT, POST, and DELETE
- HTTP requests. You can add headers, form data, multipart files, and
- parameters with simple Python dictionaries, and access the response
- data in the same way. It's powered by urllib2, but it does all the
- hard work and crazy hacks for you.
+ Requests allow you to send HTTP/1.1 requests. You can add headers, form data,
+ multipart files, and parameters with simple Python dictionaries, and access the
+ response data in the same way. It's powered by httplib and urllib3, but it does
+ all the hard work and crazy hacks for you.
  .
  Features
  .
-   - Extremely simple GET, HEAD, POST, PUT, DELETE Requests
-   - Simple HTTP Header Request Attachment
-   - Simple Data/Params Request Attachment
-   - Simple Multipart File Uploads
-   - CookieJar Support
-   - Redirection History
-   - Proxy Support
-   - Redirection Recursion Urllib Fix
-   - Auto Decompression of GZipped Content
-   - Unicode URL Support
-   - Simple Authentication: Simple URL + HTTP Auth Registry
+   - International Domains and URLs
+   - Keep-Alive & Connection Pooling
+   - Sessions with Cookie Persistence
+   - Browser-style SSL Verification
+   - Basic/Digest Authentication
+   - Elegant Key/Value Cookies
+   - Automatic Decompression
+   - Unicode Response Bodies
+   - Multipart File Uploads
+   - Connection Timeouts
 
 Package: python3-requests
 Architecture: all
@@ -57,24 +55,22 @@ Depends:
 Recommends:
  python3-chardet
 Description: elegant and simple HTTP library for Python3, built for human beings
- Requests allow you to send GET, HEAD, PUT, POST, and DELETE
- HTTP requests. You can add headers, form data, multipart files, and
- parameters with simple Python dictionaries, and access the response
- data in the same way. It's powered by urllib2, but it does all the
- hard work and crazy hacks for you.
+ Requests allow you to send HTTP/1.1 requests. You can add headers, form data,
+ multipart files, and parameters with simple Python dictionaries, and access the
+ response data in the same way. It's powered by httplib and urllib3, but it does
+ all the hard work and crazy hacks for you.
  .
  Features
  .
-   - Extremely simple GET, HEAD, POST, PUT, DELETE Requests
-   - Simple HTTP Header Request Attachment
-   - Simple Data/Params Request Attachment
-   - Simple Multipart File Uploads
-   - CookieJar Support
-   - Redirection History
-   - Proxy Support
-   - Redirection Recursion Urllib Fix
-   - Auto Decompression of GZipped Content
-   - Unicode URL Support
-   - Simple Authentication: Simple URL + HTTP Auth Registry
+   - International Domains and URLs
+   - Keep-Alive & Connection Pooling
+   - Sessions with Cookie Persistence
+   - Browser-style SSL Verification
+   - Basic/Digest Authentication
+   - Elegant Key/Value Cookies
+   - Automatic Decompression
+   - Unicode Response Bodies
+   - Multipart File Uploads
+   - Connection Timeouts
  .
  This package contains the Python 3 version of the library.
