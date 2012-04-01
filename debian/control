@@ -54,6 +54,8 @@ Depends:
  ${python3:Depends},
  ca-certificates,
  python3-six
+Recommends:
+ python3-chardet
 Description: elegant and simple HTTP library for Python3, built for human beings
  Requests allow you to send GET, HEAD, PUT, POST, and DELETE
  HTTP requests. You can add headers, form data, multipart files, and
