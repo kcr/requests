@@ -1,27 +1,14 @@
 Description: To verify SSL certificates for HTTPS requests, use the bundle
- provided by ca-certificates instead of python-certifi.
+ provided by ca-certificates instead of python-certifi. Since requests 0.11.2
+ it is not needed to hard-code bundle path because requests will search for it.
 Author: Daniele Tricoli <eriol@mornie.org>
 Forwarded: not-needed
-Last-Update: 2012-03-16
+Last-Update: 2012-04-23
 
---- a/requests/models.py
-+++ b/requests/models.py
-@@ -497,9 +497,9 @@
-             if not cert_loc and self.config.get('trust_env'):
-                 cert_loc = os.environ.get('CURL_CA_BUNDLE')
-
--            # Use the awesome certifi list.
-+            # On Debian use the bundle provided by ca-certificates.
-             if not cert_loc:
--                cert_loc = __import__('certifi').where()
-+                cert_loc = '/etc/ssl/certs/ca-certificates.crt'
-
-             conn.cert_reqs = 'CERT_REQUIRED'
-             conn.ca_certs = cert_loc
 --- a/setup.py
 +++ b/setup.py
 @@ -21,7 +21,7 @@
-     os.system('python test_requests.py')
+     os.system('python tests/test_requests.py')
      sys.exit()
 
 -required = ['certifi>=0.0.7',]

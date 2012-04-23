@@ -1,8 +1,10 @@
 requests (0.11.2-1) UNRELEASED; urgency=low
 
   * New upstream release
+  * debian/patches/01_do-not-use-python-certifi.patch
+    - Refreshed
 
- -- Daniele Tricoli <eriol@mornie.org>  Mon, 23 Apr 2012 10:13:41 +0200
+ -- Daniele Tricoli <eriol@mornie.org>  Mon, 23 Apr 2012 16:06:33 +0200
 
 requests (0.11.1-1) unstable; urgency=low
 
