@@ -1,18 +1,17 @@
 Description: To verify SSL certificates for HTTPS requests, use the bundle
- provided by ca-certificates instead of python-certifi. Since requests 0.11.2
- it is not needed to hard-code bundle path because requests will search for it.
+ provided by ca-certificates instead of python-certifi.
 Author: Daniele Tricoli <eriol@mornie.org>
 Forwarded: not-needed
-Last-Update: 2012-04-23
+Last-Update: 2012-05-04
 
 --- a/setup.py
 +++ b/setup.py
-@@ -21,7 +21,7 @@
-     os.system('python tests/test_requests.py')
-     sys.exit()
+@@ -32,7 +32,7 @@
+ # On certain supported platforms (e.g., Red Hat / Debian / FreeBSD), Requests can
+ # use the system CA bundle instead; see `requests.utils` for details.
+ # If your platform is supported, set `requires` to [] instead:
+-requires = ['certifi>=0.0.7']
++requires = []
 
--required = ['certifi>=0.0.7',]
-+required = []
- packages = [
-     'requests',
-     'requests.packages',
+ # chardet is used to optimally guess the encodings of pages that don't declare one.
+ # At this time, chardet is not a required dependency. However, it's sufficiently
