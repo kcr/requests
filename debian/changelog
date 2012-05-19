@@ -1,6 +1,8 @@
 requests (0.12.1-1) UNRELEASED; urgency=low
 
   * New upstream release
+  * debian/control
+    - Added python-oauthlib to python-requests' Recommends field
   * debian/patches/01_do-not-use-python-certifi.patch
     - Refreshed
 
