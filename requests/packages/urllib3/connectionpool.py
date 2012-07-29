@@ -52,7 +52,7 @@ from .exceptions import (
 )
 
 from .packages.ssl_match_hostname import match_hostname, CertificateError
-from .packages import six
+import six
 
 
 xrange = six.moves.xrange

@@ -11,7 +11,7 @@ import zlib
 from io import BytesIO
 
 from .exceptions import DecodeError
-from .packages.six import string_types as basestring
+from six import string_types as basestring
 
 
 log = logging.getLogger(__name__)

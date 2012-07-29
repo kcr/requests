@@ -18,7 +18,7 @@ except ImportError: # `poll` doesn't exist on OSX and other platforms
     except ImportError: # `select` doesn't exist on AppEngine.
         select = False
 
-from .packages import six
+import six
 from .exceptions import LocationParseError
 
 
