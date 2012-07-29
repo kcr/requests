@@ -26,7 +26,8 @@ Depends:
 Recommends:
  python-chardet,
  python-gevent,
- python-oauthlib
+ python-oauthlib,
+ python-kerberos
 Description: elegant and simple HTTP library for Python, built for human beings
  Requests allow you to send HTTP/1.1 requests. You can add headers, form data,
  multipart files, and parameters with simple Python dictionaries, and access the

@@ -1,3 +1,9 @@
+requests (0.13.5-0) unstable; urgency=low
+
+  * New upstream release
+
+ -- Karl Ramm <kcr@1ts.org>  Sun, 29 Jul 2012 16:23:19 -0400
+
 requests (0.12.1-1) unstable; urgency=low
 
   * New upstream release
