@@ -26,12 +26,12 @@ from .cookies import RequestsCookieJar, cookiejar_from_dict
 _hush_pyflakes = (RequestsCookieJar,)
 
 CERTIFI_BUNDLE_PATH = None
-try:
-    # see if requests's own CA certificate bundle is installed
-    from . import certs
-    CERTIFI_BUNDLE_PATH = certs.where()
-except ImportError:
-    pass
+#try:
+#    # see if requests's own CA certificate bundle is installed
+#    from . import certs
+#    CERTIFI_BUNDLE_PATH = certs.where()
+#except ImportError:
+#    pass
 
 NETRC_FILES = ('.netrc', '_netrc')
 
